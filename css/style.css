@@ -1,0 +1,137 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  min-width: 680px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+
+/* Header */
+.header__top {
+  background-color: #303030;
+  height: 40px;
+}
+
+.TYPE {
+  color: black;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.header__logo {
+  position: absolute;
+  margin-top: 10px;
+  color: rgb(255, 196, 0);
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.header__btn {
+  float: right;
+  background-color: rgb(255, 196, 0);
+  color: black;
+  padding: 10px;
+  transition: all .2s linear;
+}
+
+.header__btn:hover {
+  background-color: rgb(177, 136, 4);
+}
+
+.header__phone,
+.header__email {
+  color: white;
+  padding-top: 7px;
+  transition: .2s linear;
+  margin-right: 30px;
+}
+
+.header__phone:hover,
+.header__email:hover {
+  color: rgb(167, 167, 167);
+}
+
+.header__phone:before {
+  font-family: 'icomoon';
+  content: "\f095";
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.header__email:before {
+  font-family: 'icomoon';
+  content: "\f0b1";
+  margin-right: 5px;
+}
+
+.header__btn:before {
+  font-family: 'icomoon';
+  content: "\f0e0";
+  margin-right: 5px;
+}
+
+.menu {
+  display: flex;
+  float: right;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.btn {
+  color: black;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  transition: .2s linear;
+}
+
+.btn:hover {
+  border-color:rgb(255, 196, 0);
+}
+
+.header__content {
+  height: 93px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+/* Section */
+.section {
+  width: 50%;
+  margin: auto;
+  border: 5px solid black;
+  overflow: hidden;
+}
+
+.slider__image {
+  display: flex;
+}
